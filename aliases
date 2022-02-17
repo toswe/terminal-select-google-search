@@ -1,0 +1,13 @@
+# TERMINAL SELECTION SEARCH
+srch() {
+  searchterm=$@
+  xdg-open "http://www.google.com/search?addq=${searchterm// /+}"
+}
+
+srchsel() {
+  sel=$(xclip -o)
+  srch $sel
+}
+
+zle -N srchsel
+bindkey "^F" srchsel
