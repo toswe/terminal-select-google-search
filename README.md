@@ -13,7 +13,7 @@ srch whats the weather today
 
 ## Setup
 
-Copy the contents of `aliases.sh` to your `.bashrc` or `.zshrc` file
+Copy the contents of `aliases` to your `.bashrc.sh` or `.zshrc.sh` file
 or run one of the following scripts:
 
 ```
