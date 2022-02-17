@@ -1,4 +1,4 @@
-# Terminal selection search
+# Terminal selection web search
 
 ## Usage
 
